@@ -1,0 +1,78 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#home {
+    background-color: white;
+}
+.text_wrap{
+    width: 100%;
+    position: relative;
+    margin-bottom: -10%;
+}
+.text_wrap h1{
+    text-align: center;
+    color: rgb(170, 169, 169);
+    font-size: 5vw;
+    font-family: monospace;
+    font-style: calluna-sans;
+}
+#childhood {
+    height: 800px;
+    background-color: #2e3436;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#childhood section{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.picture{
+    width: 90%;
+    margin-top: 50px;
+}
+.picture img{
+    box-sizing: border-box;
+    max-width: 75%;
+    height: auto;
+    margin-left: 55px;
+    object-fit: cover;
+    justify-content: center;
+}
+#canvas{
+    width: 400px;
+}
+#gallery {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+}
+#gallery img {
+    box-sizing: border-box;
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 10px;
+}
+table {
+    width: 40%;
+    align-items: center;
+    text-align: center;
+
+}
+#success {
+    padding: 3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+}
